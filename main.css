@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 70%;
+    margin: auto;
+    margin-top: 12%;
+    justify-content: center;
+}
+#img-div{
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+#image{
+    display: block;
+    height: auto;
+    margin: auto;
+  
+    max-width: 100%;
+}
+#tribute-link{
+    padding: 2%;
+    background-color: rgb(201, 199, 199);
+    border-radius: 5px;
+}
+@media (min-width: 992px) { 
+    #main{
+        width:40%;
+    }
+ }
